@@ -1,0 +1,6 @@
+framework module Pods_Food_Saver {
+  umbrella header "Pods-Food Saver-umbrella.h"
+
+  export *
+  module * { export * }
+}
