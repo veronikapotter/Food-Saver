@@ -18,11 +18,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("home screen gtg")
+        
+        // TODO: fix this to only load login if no API key
+        let loginScreenController = LoginScreenViewController()
+        navigationController?.pushViewController(loginScreenController, animated: true)
     }
     
-    //Adding a comment to test git
-
-
 }
 

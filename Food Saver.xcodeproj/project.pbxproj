@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1EF4BCA2BD7F67105D94CDD2 /* Pods_Food_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B6C01AC7716BAEB99EF58D /* Pods_Food_Saver.framework */; };
+		FD8659EF2BA7B98800F574C5 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8659EE2BA7B98800F574C5 /* LoginScreenViewController.swift */; };
+		FD8659F12BA7B99700F574C5 /* RegisterScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8659F02BA7B99700F574C5 /* RegisterScreenViewController.swift */; };
+		FD8659F32BA7B9A300F574C5 /* RegisterScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8659F22BA7B9A300F574C5 /* RegisterScreenView.swift */; };
+		FD8659F52BA7B9AC00F574C5 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8659F42BA7B9AC00F574C5 /* LoginScreenView.swift */; };
 		FDABCD0A2BA1F64E0068EFE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABCD092BA1F64E0068EFE8 /* AppDelegate.swift */; };
 		FDABCD0C2BA1F64E0068EFE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABCD0B2BA1F64E0068EFE8 /* SceneDelegate.swift */; };
 		FDABCD0E2BA1F64E0068EFE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDABCD0D2BA1F64E0068EFE8 /* ViewController.swift */; };
@@ -21,6 +25,10 @@
 		2A4C2A6FF33E08241723DEF2 /* Pods-Food Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Saver.debug.xcconfig"; path = "Target Support Files/Pods-Food Saver/Pods-Food Saver.debug.xcconfig"; sourceTree = "<group>"; };
 		5749D1873217EA42F8F9E742 /* Pods-Food Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Saver.release.xcconfig"; path = "Target Support Files/Pods-Food Saver/Pods-Food Saver.release.xcconfig"; sourceTree = "<group>"; };
 		C9B6C01AC7716BAEB99EF58D /* Pods_Food_Saver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Saver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8659EE2BA7B98800F574C5 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		FD8659F02BA7B99700F574C5 /* RegisterScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreenViewController.swift; sourceTree = "<group>"; };
+		FD8659F22BA7B9A300F574C5 /* RegisterScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreenView.swift; sourceTree = "<group>"; };
+		FD8659F42BA7B9AC00F574C5 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 		FDABCD062BA1F64E0068EFE8 /* Food Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDABCD092BA1F64E0068EFE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDABCD0B2BA1F64E0068EFE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +69,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FD8659EC2BA7B94F00F574C5 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FD8659EE2BA7B98800F574C5 /* LoginScreenViewController.swift */,
+				FD8659F42BA7B9AC00F574C5 /* LoginScreenView.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		FD8659ED2BA7B95B00F574C5 /* RegisterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FD8659F02BA7B99700F574C5 /* RegisterScreenViewController.swift */,
+				FD8659F22BA7B9A300F574C5 /* RegisterScreenView.swift */,
+			);
+			path = RegisterScreen;
+			sourceTree = "<group>";
+		};
 		FDABCCFD2BA1F64E0068EFE8 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +108,8 @@
 		FDABCD082BA1F64E0068EFE8 /* Food Saver */ = {
 			isa = PBXGroup;
 			children = (
+				FD8659ED2BA7B95B00F574C5 /* RegisterScreen */,
+				FD8659EC2BA7B94F00F574C5 /* LoginScreen */,
 				FDABCD092BA1F64E0068EFE8 /* AppDelegate.swift */,
 				FDABCD0B2BA1F64E0068EFE8 /* SceneDelegate.swift */,
 				FDABCD202BA1FABE0068EFE8 /* HomeScreen */,
@@ -220,6 +248,10 @@
 				FDABCD0E2BA1F64E0068EFE8 /* ViewController.swift in Sources */,
 				FDABCD0A2BA1F64E0068EFE8 /* AppDelegate.swift in Sources */,
 				FDABCD0C2BA1F64E0068EFE8 /* SceneDelegate.swift in Sources */,
+				FD8659F12BA7B99700F574C5 /* RegisterScreenViewController.swift in Sources */,
+				FD8659F52BA7B9AC00F574C5 /* LoginScreenView.swift in Sources */,
+				FD8659EF2BA7B98800F574C5 /* LoginScreenViewController.swift in Sources */,
+				FD8659F32BA7B9A300F574C5 /* RegisterScreenView.swift in Sources */,
 				FDABCD1F2BA1FAB50068EFE8 /* HomeScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
