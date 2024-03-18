@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1EF4BCA2BD7F67105D94CDD2 /* Pods_Food_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B6C01AC7716BAEB99EF58D /* Pods_Food_Saver.framework */; };
+		7972F4102BA7ED74009748C1 /* RecoverScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7972F40F2BA7ED74009748C1 /* RecoverScreenView.swift */; };
+		7972F4122BA7ED9B009748C1 /* RecoverScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7972F4112BA7ED9B009748C1 /* RecoverScreenViewController.swift */; };
 		FD8659EF2BA7B98800F574C5 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8659EE2BA7B98800F574C5 /* LoginScreenViewController.swift */; };
 		FD8659F12BA7B99700F574C5 /* RegisterScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8659F02BA7B99700F574C5 /* RegisterScreenViewController.swift */; };
 		FD8659F32BA7B9A300F574C5 /* RegisterScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8659F22BA7B9A300F574C5 /* RegisterScreenView.swift */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2A4C2A6FF33E08241723DEF2 /* Pods-Food Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Saver.debug.xcconfig"; path = "Target Support Files/Pods-Food Saver/Pods-Food Saver.debug.xcconfig"; sourceTree = "<group>"; };
 		5749D1873217EA42F8F9E742 /* Pods-Food Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Saver.release.xcconfig"; path = "Target Support Files/Pods-Food Saver/Pods-Food Saver.release.xcconfig"; sourceTree = "<group>"; };
+		7972F40F2BA7ED74009748C1 /* RecoverScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverScreenView.swift; sourceTree = "<group>"; };
+		7972F4112BA7ED9B009748C1 /* RecoverScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverScreenViewController.swift; sourceTree = "<group>"; };
 		C9B6C01AC7716BAEB99EF58D /* Pods_Food_Saver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Saver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8659EE2BA7B98800F574C5 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		FD8659F02BA7B99700F574C5 /* RegisterScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreenViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 				C9B6C01AC7716BAEB99EF58D /* Pods_Food_Saver.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7972F40E2BA7ED32009748C1 /* RecoverScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7972F40F2BA7ED74009748C1 /* RecoverScreenView.swift */,
+				7972F4112BA7ED9B009748C1 /* RecoverScreenViewController.swift */,
+			);
+			path = RecoverScreen;
 			sourceTree = "<group>";
 		};
 		E87A9DAA8654308EC03E9D75 /* Pods */ = {
@@ -108,6 +121,7 @@
 		FDABCD082BA1F64E0068EFE8 /* Food Saver */ = {
 			isa = PBXGroup;
 			children = (
+				7972F40E2BA7ED32009748C1 /* RecoverScreen */,
 				FD8659ED2BA7B95B00F574C5 /* RegisterScreen */,
 				FD8659EC2BA7B94F00F574C5 /* LoginScreen */,
 				FDABCD092BA1F64E0068EFE8 /* AppDelegate.swift */,
@@ -248,6 +262,8 @@
 				FDABCD0E2BA1F64E0068EFE8 /* ViewController.swift in Sources */,
 				FDABCD0A2BA1F64E0068EFE8 /* AppDelegate.swift in Sources */,
 				FDABCD0C2BA1F64E0068EFE8 /* SceneDelegate.swift in Sources */,
+				7972F4122BA7ED9B009748C1 /* RecoverScreenViewController.swift in Sources */,
+				7972F4102BA7ED74009748C1 /* RecoverScreenView.swift in Sources */,
 				FD8659F12BA7B99700F574C5 /* RegisterScreenViewController.swift in Sources */,
 				FD8659F52BA7B9AC00F574C5 /* LoginScreenView.swift in Sources */,
 				FD8659EF2BA7B98800F574C5 /* LoginScreenViewController.swift in Sources */,

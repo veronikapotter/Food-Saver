@@ -69,9 +69,9 @@ class LoginScreenViewController: UIViewController {
     // MARK: set up button forgot password
     // TODO: fill in with Fogot pass screen
     @objc func onButtonForgotPass(){
-        /*let forgotPassScreenController = ForgotPasswordScreenController()
-        navigationController?.popViewController(animated: true)
-        navigationController?.pushViewController(forgotPassScreenController, animated: true)*/
+        let recoverScreenController = RecoverScreenViewController()
+        //navigationController?.popViewController(animated: true)
+        navigationController?.pushViewController(recoverScreenController, animated: true)
     }
 
 }
